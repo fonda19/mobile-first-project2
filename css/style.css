@@ -66,7 +66,7 @@ figure {
 figcaption {
 	font-size: .9em;
 	line-height: 1.5;
-	color: #black;
+	color: black;
 	padding-top: 1.5em;	
 	padding-bottom: 1.6em;
 	
@@ -87,7 +87,6 @@ figcaption {
 	font-weight: 800;
 	text-align: center;
 	color: #3a3a3a;
-	background:;
 }
 
 
@@ -141,7 +140,7 @@ figcaption {
 	padding-top: .5em;
 	padding-bottom: .5em;
 	z-index: 1;
-	
+   font-family: 'Roboto', sans-serif;
 }
 
 
@@ -203,13 +202,17 @@ figcaption {
    font-weight: 500;
    padding-left: 15px;
    color: #3a3a3a;
+   font-family: 'Roboto', sans-serif;
+
 }
 
 .footer-nav {
    margin: 0;
    float: right;
    text-transform: uppercase;
-  	font-weight: 600;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+
 }
 
 footer {
@@ -255,6 +258,10 @@ footer {
 		margin: 0 auto;
 	}
 
+	#folio{
+		margin-left: 100px;
+	}
+	
 	.name,
 	.col {
 		float: left;
@@ -263,7 +270,7 @@ footer {
 	
 	.primary
 	 {
-		width: 50%;
+		width: 90%;
 		float: left;
 		padding: 0 10px;
 		margin-bottom: 150px;
