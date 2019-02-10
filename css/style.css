@@ -235,7 +235,7 @@ footer {
   Media Queries
 ==================================== */
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
 
 	body {
 		padding-top: 68px;
@@ -326,7 +326,7 @@ footer {
 
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
 	
 	
     .banner-img {
