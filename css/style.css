@@ -58,9 +58,8 @@ img {
 
 figure {
 	margin: 0;
-	line-height: 0;
 	position: relative;
-	width: 100%;
+	
 }
 
 figcaption {
@@ -69,10 +68,9 @@ figcaption {
 	color: black;
 	padding-top: 1.5em;	
 	padding-bottom: 1.6em;
-	
 	text-align: center;
-	position: absolute;
-	width: 100%;
+
+	
 }
 
 /* ================================= 
@@ -119,9 +117,7 @@ figcaption {
 		background: white;
 		list-style: none;
 	}
-	.main-nav ul {
-		padding-left:-20px;
-	}
+	
 
 	.contact{
 		background: #F8F8F8;
@@ -156,22 +152,30 @@ figcaption {
 }	
 
 .container {
-	background: white;
-	padding-top: 40px;
+  width: 90%;
+  margin: 0 auto;
 }
 
 
-.col {
-	padding-right: 1em;
-	padding-left: 1em;
-	margin-bottom: 150px;
+.project {
+  margin-bottom: 1.5em;
+}
+
+.project img {
+  margin-bottom: 1.5em;
+}
+
+.project p {
+  margin-top: 0.5em;
+  margin-bottom: 2.3em;
+  padding: 0 2em;
 }
 
 
 /* ---- Page Elements ---- */
 
 .feat-img {
-	width: 100%;
+	max-width: 100%;
 }
 
 .headline {
@@ -191,7 +195,7 @@ figcaption {
 }
 
 #folio {
-	margin: 15px;
+  padding-top: 3em;
 }
 /* =====footer======= */
 
@@ -252,28 +256,18 @@ footer {
 		padding-bottom: 0;
 	}
 
-	.container {
-		width: 90%;
-		margin: 0 auto;
-	}
+	 .project {
+    float: left;
+    width: 50%;
+    padding: 1em;
+    margin-bottom: 0.5em;
+  }
 
-	#folio{
-		margin-left: 100px;
-	}
 	
-	.name,
-	.col {
+	.name {
 		float: left;
 	}
 
-	
-	.primary
-	 {
-		width: 90%;
-		float: left;
-		padding: 0 10px;
-		margin-bottom: 150px;
-	}
 
 	.main-nav {
 		float: right;
@@ -322,7 +316,6 @@ footer {
    }
 
 
-
 	/* ---- Float clearfix ---- */
 
 	.clearfix:after {
@@ -354,19 +347,10 @@ footer {
         margin: 0 auto;
 	}
 
-	.primary {
-		width: 33.3%;
-		float: left;
-		padding: 0 10px;
-		margin-bottom: 150px;
-	}
-
-
-	.card {
-		margin:10px;	
-
-	}
-
+	.project {
+    width: 33%;
+    padding: 0.5em;
+  }
 
 	.clearfix:after {
 		content: " ";
