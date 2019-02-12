@@ -14,6 +14,7 @@ body {
 	line-height: 1.6;
 	color: #3a3a3a;
 	background: #F8F8F8;
+	text-align: center;
 }
 
 p {
@@ -47,14 +48,8 @@ img {
 	max-width: 100%;
 
 }
-.primary {
-	background: white;
-}
 
-.portfolio-title {
-	text-align: center;
 
-}
 
 figure {
 	margin: 0;
@@ -66,10 +61,11 @@ figcaption {
 	font-size: .9em;
 	line-height: 1.5;
 	color: black;
-	padding-top: 1.5em;	
+	padding-top: .5em;	
 	padding-bottom: 1.6em;
+	padding-left: 15px;
+	padding-right: 15px;
 	text-align: center;
-
 	
 }
 
@@ -84,13 +80,15 @@ figcaption {
 	margin: 0;
 	font-weight: 800;
 	text-align: center;
-	color: #3a3a3a;
+	
 }
 
 
 .main-nav {
 	margin-top: 10px;
 	margin-bottom: -10px;
+	margin-right: 20px;
+	margin-left: -15px;
 }
 
 	
@@ -102,7 +100,6 @@ figcaption {
 	
 	.main-nav a {
 		font-size: .95em;
-		color:#3a3a3a;
 		text-transform: uppercase;
 		font-weight: 700;
 	}
@@ -112,7 +109,7 @@ figcaption {
 	}
 
 	.main-nav li {
-		margin-left: -10px;
+		
 		margin-bottom: 5px;
 		background: white;
 		list-style: none;
@@ -123,7 +120,7 @@ figcaption {
 		background: #F8F8F8;
 		text-align:	center;
 		margin-top: 20px;
-
+		font-family: 'Poppins', sans-serif;
 	}
 
 
@@ -135,7 +132,7 @@ figcaption {
 	padding-top: .5em;
 	padding-bottom: .5em;
 	z-index: 1;
-   font-family: 'Roboto', sans-serif;
+   
 }
 
 
@@ -147,7 +144,7 @@ figcaption {
 .banner {
 	color: black;
 	background: #f6fbfc !important;
-	padding: 3.2em 0;
+	padding: 2.2em 0;
 	margin-bottom: 60px;
 }	
 
@@ -162,7 +159,7 @@ figcaption {
 }
 
 .project img {
-  margin-bottom: 1.5em;
+  margin-bottom: .2em;
 }
 
 .project p {
@@ -195,17 +192,17 @@ figcaption {
 }
 
 #folio {
-  padding-top: 3em;
+  padding-top: 1.5em;
 }
 /* =====footer======= */
 
 .footer-name {
    float: left;
    font-size: 0.875em;
-   font-weight: 500;
+   font-weight: 600;
    padding-left: 15px;
    color: #3a3a3a;
-   font-family: 'Roboto', sans-serif;
+ 
 
 }
 
@@ -214,7 +211,7 @@ figcaption {
    float: right;
    text-transform: uppercase;
   font-weight: 600;
-  font-family: 'Roboto', sans-serif;
+  
 
 }
 
@@ -249,12 +246,13 @@ footer {
 
 	.main-header {
 		position: fixed;
-		background: #fff;
 		width: 100%;
 		top: 0;
 		padding-top: 0;
 		padding-bottom: 0;
-	}
+		text-align: center;
+		background: #F8F8F8;
+	} 
 
 	 .project {
     float: left;
@@ -264,33 +262,42 @@ footer {
   }
 
 	
-	.name {
-		float: left;
-	}
-
-
-	.main-nav {
-		float: right;
-	}
-
-
-	.main-nav li {
+  .name {
+  	padding-left: 35px;
+  }
+  .main-nav {
+  	margin-top: -20px;
+  	background: #F8F8F8;
+  }
+	.main-nav li{
 		display: inline-block;
-		margin-left: 15px;
-	}
+	    background: #F8F8F8;
+	    margin-right:20px;
+}
+.main-nav ul {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
 
-	.name {
-		background: white !important;
-	}
-
+ 
+  .main-nav  li a {
+    
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
 	.tagline {
 		font-size: 1.4em;
-		padding-top: 40px;
+		padding-top: 20px;
 	}
 	.banner-img {
-		padding-top: 60px;
-		margin-right: 10px;
+		padding-top: 45px;
+		margin-right: 1px;
 	}
+
 
 	.contact {
 		background: #F8F8F8;
@@ -328,17 +335,35 @@ footer {
 
 @media (min-width: 1024px) {
 	
-	
+
+
+	.name {
+		float: left;
+		margin-left: 100px;
+	}
+
+	.main-nav  {
+		margin-right: 100px;
+	}
+	.main-nav li {
+		float: right;
+		display: inline-block;
+		padding: 10px 10px;
+	}
+
+	.name {
+		padding-left: 5px;
+	}
     .banner-img {
     	float: right;
-
+    	margin-right: 20px;
     }
 
     .tagline  {
     	width: 60%;
     	text-align:left;
     	
-    	padding-right: 60px;
+    	padding-right: 3rem;
     }
 
 	.container {
